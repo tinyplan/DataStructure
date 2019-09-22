@@ -50,19 +50,4 @@ public class SortSingleList<T extends Comparable<? super T>> extends SingleList<
         front.next = new Node<>(data,p);
         return front.next;
     }
-
-    @Override
-    public Node<T> insertDifferent(T data) {
-        return super.insertDifferent(data);
-    }
-
-    @Override
-    public T remove(T key) {
-        return super.remove(key);
-    }
-
-    @Override
-    public Node<T> search(T key) {
-        return super.search(key);
-    }
 }
