@@ -5,7 +5,7 @@ package com.medium.first.model;
  */
 public class SingleList<T> {
     private int size;
-    private Node<T> head;//头指针，指向头结点
+    public Node<T> head;//头指针，指向头结点
 
     public SingleList(){
         this.head = new Node<>();
