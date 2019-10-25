@@ -1,4 +1,4 @@
-package com.medium.first.model;
+package com.model.list.linkedlist.singlelist.node;
 
 /**
  * 单链表结点类

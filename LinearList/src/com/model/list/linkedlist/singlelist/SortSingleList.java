@@ -1,4 +1,6 @@
-package com.medium.first.model;
+package com.model.list.linkedlist.singlelist;
+
+import com.model.list.linkedlist.singlelist.node.Node;
 
 public class SortSingleList<T extends Comparable<? super T>> extends SingleList<T> {
 
